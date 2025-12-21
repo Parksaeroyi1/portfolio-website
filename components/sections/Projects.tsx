@@ -33,7 +33,7 @@ const projects = [
       'Framer Motion',
     ],
     image: 'project2.jpg',
-    github: 'https://github.com/yourusername/portfolio-website',
+    github: 'https://github.com/Parksaeroyi1/portfolio-website',
     demo: '#',
   },
   {

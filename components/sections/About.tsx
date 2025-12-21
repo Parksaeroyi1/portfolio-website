@@ -12,10 +12,7 @@ const About = () => {
   });
 
   return (
-    <section
-      id="about"
-      className="py-20 px-6 bg-muted"
-    >
+    <section id="about" className="py-20 px-6 bg-muted bg-gray-50">
       <motion.div
         ref={ref}
         initial={{ opacity: 0, y: 30 }}

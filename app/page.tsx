@@ -12,6 +12,7 @@ const HomePage = () => {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </main>
   );
 };
