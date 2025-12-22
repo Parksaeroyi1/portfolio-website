@@ -37,16 +37,19 @@ const Contact = () => {
             const Icon = social.icon;
             return (
               <motion.a
-                key={social.label}
-                href={social.href}
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={inView ? { opacity: 1, scale: 1 } : {}}
-                transition={{ duration: 0.4, delay: index * 0.1 }}
-                className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-gray-600 hover:bg-slate-500 hover:text-white transition-colors"
-                aria-label={social.label}
-              >
+              key={social.label}
+              href={social.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={inView ? { opacity: 1, scale: 1 } : {}}
+              transition={{ duration: 0.4, delay: index * 0.1 }}
+              className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-gray-600 hover:bg-slate-500 hover:text-white transition-colors"
+              aria-label={social.label}
+            >
                 <Icon className="w-5 h-5" />
               </motion.a>
+
             );
           })}
         </div>
