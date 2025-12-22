@@ -8,7 +8,7 @@ const font = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Elijah's Portfolio | Next.js",
+  title: "Elijah's Portfolio",
   description: "Portfolio built with Next.js",
 };
 

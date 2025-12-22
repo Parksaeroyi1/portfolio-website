@@ -58,7 +58,7 @@ const Contact = () => {
         </a>
       </motion.div>
       <footer className="text-center text-gray-500 mt-20">
-        <p>© 2025 Elijah. Built with passion and React.</p>
+        <p>© 2025 Elijah. Built with passion.</p>
       </footer>
     </section>
   );
