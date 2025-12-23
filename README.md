@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Portfolio Website
 
-## Getting Started
+A modern, production-ready developer portfolio built with Next.js, TypeScript, and Tailwind CSS, designed to showcase real projects, clean architecture, and strong UI/UX fundamentals.
 
-First, run the development server:
+🔗 Live Demo: (add link)
+📂 Projects: Real-world full-stack and frontend applications
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🧠 Engineering Focus
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This portfolio was built with an emphasis on:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Scalable frontend architecture
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Clean separation of concerns
 
-## Learn More
+Design-token–driven styling
 
-To learn more about Next.js, take a look at the following resources:
+Performance and maintainability
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Professional UI/UX and animations
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+No unnecessary backend or over-engineering — only what’s needed for a fast, reliable, and maintainable site.
 
-## Deploy on Vercel
+🛠 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Framework: Next.js (App Router)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Language: TypeScript
+
+Styling: Tailwind CSS v4 + CSS variables
+
+Animations: Framer Motion
+
+Icons: Lucide React
+
+Fonts: Inter (Google Fonts)
+
+Deployment: Vercel
+
+📁 Architecture Overview
+app/
+ ├─ layout.tsx        # Global layout & font setup
+ ├─ page.tsx          # Section composition only
+ └─ globals.css       # Design tokens & theming
+
+components/
+ ├─ sections/         # Page sections (Hero, Projects, Contact, etc.)
+ └─ ui/               # Reusable UI primitives
+
+Why this matters
+
+sections/ handle layout and content
+
+ui/ components are reusable and scalable
+
+page.tsx stays clean and declarative
+
+Easy to extend without refactoring
+
+🎨 Design System
+
+Centralized design tokens (colors, spacing, typography)
+
+Light/Dark mode via CSS variables
+
+Global UI scaling through root font size
+
+No hard-coded colors or magic values
+
+This allows fast theme changes and consistent styling across the app.
+
+✨ UX & Animations
+
+Scroll-based animations using Framer Motion
+
+Subtle hover and transition effects
+
+Accessibility-aware components
+
+Smooth, professional interaction patterns
+
+📂 Projects
+
+Projects are:
+
+Data-driven and easy to extend
+
+Linked directly to GitHub
+
+Structured to support “Coming Soon” states
+
+Built to reflect real-world development experience
+
+🔒 Backend Decision
+
+This portfolio intentionally uses no backend:
+
+Static content only
+
+Faster load times
+
+Lower complexity
+
+Easier maintenance
+
+A backend (contact forms, analytics, CMS) can be added later without architectural changes.
+
+🌍 Internationalization (Planned)
+
+The structure supports future multilingual expansion (e.g. English / French) without refactoring layouts or components.
+
+📌 Takeaway
+
+This project reflects how I build real applications:
+
+Clean, scalable structure
+
+Thoughtful UI/UX
+
+Modern tooling
+
+Production-ready code
